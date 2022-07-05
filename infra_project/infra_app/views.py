@@ -3,8 +3,7 @@ from http import HTTPStatus
 from django.http import HttpResponse
 
 
-def index(request):
-    
+def index(request):    
     return HttpResponse('У меня получилось!'), HTTPStatus.OK
 
 
